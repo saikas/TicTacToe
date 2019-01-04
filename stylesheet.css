@@ -1,0 +1,68 @@
+/*
+	Alexander Shmakov
+	cmpt304::assign2
+	Oct. 18,2015
+	used Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
+*/
+
+html {
+	background-color: silver;
+	text-align: center;
+}
+
+/*all the headers*/
+h1 {
+	font-style: italic;
+}
+
+h2 {
+	font-style: italic;
+}
+
+h5 {
+	text-align: left;
+}
+
+/*the tables of every spet of the game*/
+#moves table {
+	font-size: 20px;
+
+	/*border*/
+	margin: 0 auto;
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+#moves td { 
+	border: solid 3px black;
+	background-color: silver;
+	height: 50px;
+	width: 50px;
+}
+
+
+/*The tic tac toe table*/
+table {
+	/*border*/
+	margin: 0 auto;
+	border-collapse: collapse;
+
+	/*font*/
+	font-size: 70px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+td {
+	border: solid 5px black;
+	background-color: white;
+	width: 90px;
+	height: 90px;
+}
+
+td:hover {
+	background-color: silver;
+}
+
+/*all used class elements wont be highlighted again*/
+.used:hover {
+	background-color: white;
+}
